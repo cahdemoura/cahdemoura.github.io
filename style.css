@@ -46,7 +46,20 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 64px;
+    gap: 48px;
+}
+
+.svgContainer{
+    cursor: pointer;
+}
+.svgContainer path.st0 {
+    fill: white;
+
+}
+
+.svgContainer:hover path.st0 {
+    cursor: pointer;
+    fill: #3acfd5;
 }
 
 .icons {
